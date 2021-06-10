@@ -11,6 +11,8 @@ import java.lang.Exception
 class MainActivity : AppCompatActivity() {
     lateinit var bindingClass: ActivityMainBinding
 
+    //Hello Word!!! Test
+
     override fun onCreate(s: Bundle?){
         super.onCreate(s)
         bindingClass = ActivityMainBinding.inflate(layoutInflater)
